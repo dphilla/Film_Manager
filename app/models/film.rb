@@ -1,2 +1,3 @@
 class Film < ActiveRecord::Base
-end 
+  belongs_to :genres
+end
